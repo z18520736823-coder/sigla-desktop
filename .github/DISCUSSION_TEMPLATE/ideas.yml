@@ -1,0 +1,24 @@
+title: "[Idea] "
+labels: ["community", "idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Great ideas begin with a real review problem. Describe the outcome you want Sigla to unlock.
+        好创意从真实审阅问题开始。请描述你希望 Sigla 带来的结果。
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem · 问题
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome · 期望结果
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you use today? · 目前如何解决？

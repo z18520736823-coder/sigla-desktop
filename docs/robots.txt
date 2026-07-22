@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://z18520736823-coder.github.io/sigla-desktop/sitemap.xml

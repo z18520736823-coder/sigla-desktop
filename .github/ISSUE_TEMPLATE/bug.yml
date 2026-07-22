@@ -1,0 +1,85 @@
+name: Bug report · 问题报告
+description: Report a reproducible Sigla problem without sharing private documents.
+title: "[Bug] "
+labels: ["type: bug", "status: needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Sigla. Remove API keys, private paths, personal documents, and confidential content before submitting.
+        感谢帮助改进 Sigla。提交前请移除 API Key、私人路径、个人文档和机密内容。
+  - type: input
+    id: version
+    attributes:
+      label: Sigla version · Sigla 版本
+      placeholder: 1.0.0-preview.1
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version · macOS 版本
+      placeholder: macOS 15.5
+    validations:
+      required: true
+  - type: dropdown
+    id: architecture
+    attributes:
+      label: Mac architecture · Mac 架构
+      options:
+        - Apple Silicon
+        - Intel
+        - Unknown · 不确定
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area · 相关功能
+      options:
+        - Install or launch · 安装或启动
+        - Markdown rendering · Markdown 渲染
+        - AI summary · AI 总结
+        - Annotation · 批注
+        - Feedback handoff · 反馈交接
+        - Codex or Finder integration · Codex 或 Finder 联动
+        - Settings, theme, or language · 设置、主题或语言
+        - Other · 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce · 复现步骤
+      placeholder: |
+        1. Open…
+        2. Select…
+        3. Observe…
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result · 预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result · 实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Safe screenshot or logs · 已脱敏截图或日志
+      description: Drag files here after removing private content. Never include an API key.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation · 提交确认
+      options:
+        - label: I checked the latest release and removed sensitive information. · 我已检查最新版本并移除敏感信息。
+          required: true
+        - label: This report does not describe a security vulnerability. · 本报告不涉及需要私密提交的安全漏洞。
+          required: true

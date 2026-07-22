@@ -1,0 +1,18 @@
+title: "[Question] "
+labels: ["community", "question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask a Sigla usage or workflow question. Remove private paths, API keys, and confidential Markdown.
+        欢迎提出 Sigla 使用与工作流问题。请移除私人路径、API Key 和机密 Markdown。
+  - type: textarea
+    id: question
+    attributes:
+      label: Question · 问题
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you tried? · 已经尝试了什么？

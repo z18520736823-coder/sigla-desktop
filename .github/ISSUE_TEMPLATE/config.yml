@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas · 使用交流与创意
+    url: https://github.com/z18520736823-coder/sigla-desktop/discussions
+    about: Ask a question, share a workflow, or discuss an idea in GitHub Discussions.
+  - name: Security vulnerability · 安全漏洞
+    url: https://github.com/z18520736823-coder/sigla-desktop/security
+    about: Report suspected vulnerabilities privately. Do not disclose them in a public issue.

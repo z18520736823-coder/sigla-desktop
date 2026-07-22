@@ -1,0 +1,16 @@
+{
+  "name": "Sigla",
+  "short_name": "Sigla",
+  "description": "The human review layer for AI-generated Markdown.",
+  "start_url": "/sigla-desktop/",
+  "display": "standalone",
+  "background_color": "#f5f7f3",
+  "theme_color": "#111714",
+  "icons": [
+    {
+      "src": "assets/sigla-app-icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}

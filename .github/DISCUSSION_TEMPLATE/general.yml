@@ -1,0 +1,25 @@
+title: "[Workflow] "
+labels: ["community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share how you review Agent-generated Markdown with Sigla. English and Chinese are both welcome.
+        欢迎分享你如何使用 Sigla 审阅 Agent 生成的 Markdown，中英文均可。
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Your workflow · 你的工作流
+      description: Which Agent, document type, and review steps are involved?
+    validations:
+      required: true
+  - type: textarea
+    id: learned
+    attributes:
+      label: What worked or surprised you? · 哪些体验有效或出乎意料？
+    validations:
+      required: true
+  - type: textarea
+    id: improve
+    attributes:
+      label: What should improve next? · 接下来最需要改进什么？

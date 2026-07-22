@@ -1,0 +1,53 @@
+name: Feature request · 功能需求
+description: Describe a real review problem and the outcome you need.
+title: "[Feature] "
+labels: ["type: feature", "status: needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Start with the review problem. A concrete workflow helps us understand the value better than a feature name alone.
+        请从真实审阅问题开始描述。具体工作流比单独的功能名称更容易判断价值。
+  - type: textarea
+    id: problem
+    attributes:
+      label: Review problem · 审阅问题
+      description: What becomes slow, unclear, repetitive, or risky today?
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Current workflow · 当前流程
+      description: How do you handle this today, and which Agent or editor is involved?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome · 期望结果
+      description: What should become faster, clearer, or safer?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Product area · 产品领域
+      options:
+        - Reading and navigation · 阅读与导航
+        - AI understanding · AI 理解
+        - Annotation and review · 批注与审阅
+        - Agent feedback · Agent 反馈
+        - External-change verification · 外部修改验收
+        - Privacy and offline use · 隐私与离线使用
+        - macOS integration · macOS 集成
+        - Other · 其他
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Read-only boundary · 只读边界
+      options:
+        - label: I understand Sigla keeps source Markdown read-only. · 我理解 Sigla 始终保持源 Markdown 只读。
+          required: true

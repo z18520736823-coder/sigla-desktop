@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sigla — 面向 AI 生成 Markdown 的人类审阅层</title>
+    <meta name="description" content="Sigla 将冗长的 AI 生成 Markdown 转化为有原文证据的核心洞察、精准定位的批注和 Agent 可执行反馈，源文件始终只读。">
+    <meta name="theme-color" content="#111714">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <link rel="canonical" href="https://z18520736823-coder.github.io/sigla-desktop/zh/">
+    <link rel="alternate" hreflang="en" href="https://z18520736823-coder.github.io/sigla-desktop/">
+    <link rel="alternate" hreflang="zh-CN" href="https://z18520736823-coder.github.io/sigla-desktop/zh/">
+    <link rel="alternate" hreflang="x-default" href="https://z18520736823-coder.github.io/sigla-desktop/">
+    <link rel="icon" href="../assets/sigla-app-icon-1024.png" type="image/png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="stylesheet" href="../styles.css">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Sigla">
+    <meta property="og:title" content="Sigla — 面向 AI 生成 Markdown 的人类审阅层">
+    <meta property="og:description" content="AI 智能提炼、原文锚定批注和 Agent 可执行反馈，源文件始终只读。">
+    <meta property="og:url" content="https://z18520736823-coder.github.io/sigla-desktop/zh/">
+    <meta property="og:image" content="https://z18520736823-coder.github.io/sigla-desktop/assets/social-preview.png">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="640">
+    <meta property="og:image:alt" content="Sigla 标志和产品定位：面向 AI 生成 Markdown 的人类审阅层">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sigla — AI 生成 Markdown 的人类审阅层">
+    <meta name="twitter:description" content="读懂关键内容，精准批注原文，把清晰反馈交回 Agent。">
+    <meta name="twitter:image" content="https://z18520736823-coder.github.io/sigla-desktop/assets/social-preview.png">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Sigla",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "macOS 11.0 or later",
+        "softwareVersion": "1.0.0-preview.1",
+        "description": "面向 AI 生成 Markdown 的人类审阅层，提供有原文证据的 AI 洞察、精准定位批注、Agent 可执行反馈和本地只读工作流。",
+        "url": "https://z18520736823-coder.github.io/sigla-desktop/zh/",
+        "downloadUrl": "https://github.com/z18520736823-coder/sigla-desktop/releases/tag/v1.0.0-preview.1",
+        "image": "https://z18520736823-coder.github.io/sigla-desktop/assets/sigla-app-icon-1024.png",
+        "author": {"@type": "Person", "name": "Mr.ZhouPeng"},
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "CNY", "availability": "https://schema.org/PreOrder"},
+        "featureList": [
+          "OpenAI 与 DeepSeek 驱动的 Markdown 总结",
+          "附带原文证据的 AI 洞察",
+          "精准绑定原文的框选批注",
+          "Agent 可执行结构化反馈",
+          "离线阅读与批注",
+          "源 Markdown 只读工作流",
+          "Codex 与 Finder 联动"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳至正文</a>
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="主导航">
+        <a class="brand" href="./" aria-label="Sigla 中文首页">
+          <img src="../assets/sigla-mark.svg" alt="">
+          <span>Sigla</span>
+        </a>
+        <div class="nav-links">
+          <a href="#why">为什么选择 Sigla</a>
+          <a href="#principles">四大支柱</a>
+          <a href="#workflow">工作流</a>
+          <a class="language-link" href="../" lang="en">English</a>
+          <a class="nav-download" href="https://github.com/z18520736823-coder/sigla-desktop/releases/tag/v1.0.0-preview.1">下载</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-shell">
+          <div>
+            <p class="eyebrow">macOS 公开预览版</p>
+            <h1 id="hero-title">面向 AI 生成 Markdown 的人类审阅层。</h1>
+            <p class="hero-copy">把冗长、密集的 Agent 产出，转化为有原文证据的核心洞察、精准定位的批注，以及可直接交回 Agent 的修改任务；源文件始终只读。</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://github.com/z18520736823-coder/sigla-desktop/releases/tag/v1.0.0-preview.1">下载 macOS 版</a>
+              <a class="button button-secondary" href="https://github.com/z18520736823-coder/sigla-desktop">前往 GitHub</a>
+            </div>
+            <ul class="trust-line" aria-label="产品特点">
+              <li>OpenAI 或 DeepSeek</li>
+              <li>源文件只读</li>
+              <li>支持离线使用</li>
+            </ul>
+          </div>
+
+          <div class="review-visual" aria-label="Sigla 原文锚定批注抽象示意">
+            <div class="review-sheet" aria-hidden="true">
+              <div class="sheet-chrome"><span>产品审阅.MD</span><span>只读</span></div>
+              <div class="sheet-title"></div>
+              <div class="sheet-line"></div>
+              <div class="sheet-line"></div>
+              <div class="sheet-line short"></div>
+              <div class="source-anchor">
+                <div class="sheet-line"></div>
+                <div class="sheet-line short"></div>
+              </div>
+              <div class="sheet-line"></div>
+              <div class="sheet-line short"></div>
+            </div>
+            <div class="annotation-note" aria-hidden="true">
+              <strong>修改要求</strong>
+              <p>补充明确的验收条件，同时保留对应原文证据。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="why">
+        <div class="section-shell">
+          <p class="section-kicker">审阅难题</p>
+          <h2>AI 可以生成文档，人依然需要真正读懂它。</h2>
+          <p class="section-intro">Sigla 缩短 Agent 产出与人类可靠决策之间的距离。</p>
+          <ol class="problem-list">
+            <li><span>01</span><strong>长文本里，真正值得关注的是什么？</strong></li>
+            <li><span>02</span><strong>一条反馈，能否精准回到对应的原文？</strong></li>
+            <li><span>03</span><strong>一个观点发生变化，相关任务、约束与验收条件是否依然清晰？</strong></li>
+            <li><span>04</span><strong>没有 API，甚至断网时，审阅还能否继续？</strong></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="principles" id="principles">
+        <div class="section-shell">
+          <p class="section-kicker">四大产品支柱</p>
+          <h2>清晰、精准、可执行、不断线。</h2>
+          <p class="section-intro">所有能力都服务于同一件事：让 Agent 生成的 Markdown 更容易理解、审阅和清晰交回。</p>
+          <div class="principle-list">
+            <article class="principle">
+              <span class="principle-number">01</span>
+              <h3>AI 智能提炼<small>OpenAI 或 DeepSeek</small></h3>
+              <div class="principle-copy">
+                <strong>将冗长的 Markdown 提炼为一个中心结论和 3–5 个关键要点，每条 AI 洞察都附带原文证据。</strong>
+                <p>用户使用自己的 API Key，密钥保存在 macOS Keychain。只有主动触发 AI 功能时，Sigla 才会连接所选服务商。</p>
+              </div>
+            </article>
+            <article class="principle">
+              <span class="principle-number">02</span>
+              <h3>轻松框选批注<small>圈出原文，写下意见</small></h3>
+              <div class="principle-copy">
+                <strong>圈出任意段落，即可添加评论、问题或修改要求；每条批注都精准绑定原文。</strong>
+                <p>批注保存在 Sigla 私有数据库。外部修改会触发锚点核对，匹配不确定时由用户确认。</p>
+              </div>
+            </article>
+            <article class="principle">
+              <span class="principle-number">03</span>
+              <h3>Agent 可执行反馈<small>从审阅直接进入修改</small></h3>
+              <div class="principle-copy">
+                <strong>把选中的批注整理成清晰任务，包含准确位置、具体要求和验收标准。</strong>
+                <p>反馈可直接交回 Codex 或其他 Agent。相关与冲突要求保持清晰，用户原话和原文证据完整保留。</p>
+              </div>
+            </article>
+            <article class="principle">
+              <span class="principle-number">04</span>
+              <h3>离线连续性<small>审阅无需依赖联网</small></h3>
+              <div class="principle-copy">
+                <strong>无需 API Key 或网络连接，也能阅读、渲染、批注和生成本地基础反馈。</strong>
+                <p>联网 AI 只在用户选择后运行。源 Markdown 始终只读，所有审阅状态保存在本机私有空间。</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="workflow">
+        <div class="section-shell">
+          <p class="section-kicker">完整审阅闭环</p>
+          <h2>从 Agent 产出到人类决策。</h2>
+          <p class="section-intro">生成、理解、批注、修改和验收，形成一条清晰可追溯的路径。</p>
+          <ol class="workflow-strip">
+            <li><span>01</span><strong>Agent 生产</strong></li>
+            <li><span>02</span><strong>Sigla 提炼</strong></li>
+            <li><span>03</span><strong>人类审阅</strong></li>
+            <li><span>04</span><strong>AI 整理反馈</strong></li>
+            <li><span>05</span><strong>Agent 修改</strong></li>
+            <li><span>06</span><strong>Sigla 验收</strong></li>
+          </ol>
+        </div>
+      </section>
+
+      <section aria-labelledby="preview-heading">
+        <div class="section-shell">
+          <p class="section-kicker">产品预览</p>
+          <h2 id="preview-heading">让每个判断都回到上下文。</h2>
+          <div class="screenshot-stage">
+            <strong>正式公开前将补齐五张聚焦真实能力的产品截图。</strong>
+            <p>当前私有预发布页面保留最终结构，截图材料不会包含私人路径、凭据和真实文档。</p>
+            <ul class="slot-list" aria-label="预留截图主题">
+              <li>明亮模式工作区</li>
+              <li>暗色双语阅读</li>
+              <li>AI 原文证据</li>
+              <li>批注反馈交接</li>
+              <li>Codex 与 Finder</li>
+            </ul>
+            <!-- 正式公开前用 01–05 五张真实截图替换此预发布面板。 -->
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="capabilities-heading">
+        <div class="section-shell feature-columns">
+          <div>
+            <p class="section-kicker">能力证明</p>
+            <h2 id="capabilities-heading">每一个细节，都围绕审阅构建。</h2>
+          </div>
+          <ul class="feature-list">
+            <li><strong>阅读</strong><span>GFM、代码、表格、Mermaid、中英文字体、章节折叠</span></li>
+            <li><strong>审阅</strong><span>框选批注、原文锚点、批注重定位、反馈历史</span></li>
+            <li><strong>AI</strong><span>OpenAI 与 DeepSeek BYOK、流式结果、原文证据、取消、缓存、本地降级</span></li>
+            <li><strong>Agent 工作流</strong><span>结构化反馈、Codex 返回、外部修改验收</span></li>
+            <li><strong>macOS</strong><span>Finder 打开、可选 Markdown 默认应用、菜单栏、Universal 2、三态主题</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="trust-section" aria-labelledby="trust-heading">
+        <div class="section-shell trust-panel">
+          <h2 id="trust-heading">只读设计，隐私优先。</h2>
+          <ul>
+            <li>不提供源 Markdown 的修改、删除、移动、重命名、复制、恢复或格式化操作。</li>
+            <li>没有账号、广告、行为分析、崩溃遥测和后台云同步。</li>
+            <li>API Key 保存在 macOS Keychain。</li>
+            <li>AI 请求只在用户主动操作后运行。</li>
+            <li>阅读状态、批注、缓存和历史保存在本机私有空间。</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="faq">
+        <div class="section-shell">
+          <p class="section-kicker">常见问题</p>
+          <h2>下载之前，先了解清晰边界。</h2>
+          <div class="faq-list">
+            <details>
+              <summary>Sigla 开源吗？</summary>
+              <p>当前没有开源。公开仓库包含产品介绍、社区资料和安装包，应用源代码采用专有软件许可并保持私有。</p>
+            </details>
+            <details>
+              <summary>Sigla 会修改 Markdown 吗？</summary>
+              <p>Sigla 不提供源 Markdown 的修改、删除、移动、重命名、复制、恢复或格式化操作。批注和审阅状态独立保存。</p>
+            </details>
+            <details>
+              <summary>没有 AI 可以使用吗？</summary>
+              <p>可以。没有 API Key 或网络连接时，阅读、渲染、批注、文件变化监听和本地基础反馈仍然可用。</p>
+            </details>
+            <details>
+              <summary>支持哪些 AI 服务？</summary>
+              <p>Sigla 1.0 预设支持 OpenAI 和 DeepSeek，采用用户自备 API Key 的方式。AI 功能可选并由用户主动触发。</p>
+            </details>
+            <details>
+              <summary>Sigla 会上传我的文档吗？</summary>
+              <p>Sigla 没有文档同步服务器。用户主动执行 AI 功能时，必要的文档内容和审阅上下文会直接发送至所选服务商。</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="download" id="download">
+        <div class="section-shell download-shell">
+          <div>
+            <p class="section-kicker">公开预览版</p>
+            <h2>让最终判断始终掌握在人手中。</h2>
+            <p>下载 macOS 版 Sigla，用它审阅下一份 Agent 生成的 Markdown，并告诉我们下一步应该走向哪里。</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://github.com/z18520736823-coder/sigla-desktop/releases/tag/v1.0.0-preview.1">下载 Sigla</a>
+              <a class="button button-secondary" href="https://github.com/z18520736823-coder/sigla-desktop/issues/new?template=experience.yml">分享体验</a>
+            </div>
+          </div>
+          <ul class="release-meta" aria-label="版本信息">
+            <li><span>版本</span><strong>1.0.0-preview.1</strong></li>
+            <li><span>平台</span><strong>macOS 11+</strong></li>
+            <li><span>架构</span><strong>Universal 2</strong></li>
+            <li><span>价格</span><strong>预览期免费</strong></li>
+            <li><span>更新</span><strong>手动下载</strong></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-shell">
+        <span>© 2026 Mr.ZhouPeng. Sigla 为专有软件。</span>
+        <div class="footer-links">
+          <a href="https://github.com/z18520736823-coder/sigla-desktop">GitHub</a>
+          <a href="https://github.com/z18520736823-coder/sigla-desktop/discussions">Discussions</a>
+          <a href="https://github.com/z18520736823-coder/sigla-desktop/blob/main/legal/PRIVACY.zh-CN.md">隐私</a>
+          <a href="https://github.com/z18520736823-coder/sigla-desktop/blob/main/SECURITY.md">安全</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

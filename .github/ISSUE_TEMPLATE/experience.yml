@@ -1,0 +1,56 @@
+name: Experience feedback · 体验反馈
+description: Tell us where Sigla helped, slowed you down, or felt unclear.
+title: "[Experience] "
+labels: ["type: experience", "status: needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Real workflows shape Sigla. You can write in English or Chinese. Remove all private document content before submitting.
+        真实工作流会帮助 Sigla 继续成长。中英文均可，提交前请移除私人文档内容。
+  - type: textarea
+    id: goal
+    attributes:
+      label: What were you trying to review? · 你当时想审阅什么？
+      description: Describe the document type and Agent workflow without sharing the document itself.
+    validations:
+      required: true
+  - type: checkboxes
+    id: used
+    attributes:
+      label: Which parts did you use? · 使用了哪些能力？
+      options:
+        - label: Reading and navigation · 阅读与导航
+        - label: OpenAI or DeepSeek summary · OpenAI 或 DeepSeek 总结
+        - label: Box annotations · 框选批注
+        - label: Agent-ready feedback · Agent 可执行反馈
+        - label: Codex or Finder integration · Codex 或 Finder 联动
+        - label: Offline workflow · 离线流程
+  - type: textarea
+    id: value
+    attributes:
+      label: Most valuable moment · 最有价值的体验
+    validations:
+      required: true
+  - type: textarea
+    id: friction
+    attributes:
+      label: Biggest point of friction · 最大阻碍
+    validations:
+      required: true
+  - type: textarea
+    id: one_change
+    attributes:
+      label: If you could change one thing · 如果只能改一处
+    validations:
+      required: true
+  - type: dropdown
+    id: recommend
+    attributes:
+      label: Would you use Sigla again? · 你还会继续使用吗？
+      options:
+        - Yes · 会
+        - Maybe, after improvements · 改进后可能会
+        - No · 不会
+    validations:
+      required: true
