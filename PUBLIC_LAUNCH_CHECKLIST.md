@@ -4,10 +4,10 @@ This repository stays private until every release gate below is complete.
 
 ## Visual assets
 
-- [ ] Add the five final product screenshots listed in `docs/assets/screenshots/README.md`.
-- [ ] Replace the screenshot placeholders in `README.md` and `README.zh-CN.md`.
-- [ ] Replace the screenshot placeholders on `docs/index.html` and `docs/zh/index.html`.
-- [ ] Verify every screenshot uses test content and contains no private paths, accounts, API keys, or documents.
+- [x] Add the four final product screenshots listed in `docs/assets/screenshots/README.md`.
+- [x] Replace the screenshot placeholders in `README.md` and `README.zh-CN.md`.
+- [x] Replace the screenshot placeholders on `docs/index.html` and `docs/zh/index.html`.
+- [x] Verify every screenshot uses test content and contains no private paths, accounts, API keys, or documents.
 - [ ] Upload `docs/assets/social-preview.png` as the repository social preview image.
 
 ## Public launch

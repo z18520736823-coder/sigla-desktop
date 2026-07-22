@@ -540,34 +540,47 @@ h2 {
   line-height: 1.35;
 }
 
-.screenshot-stage {
-  padding: 32px;
-  border: 1px dashed #a6b2ab;
-  background: #edf1ed;
+.screenshot-gallery {
+  display: grid;
+  gap: 48px;
+}
+
+.product-shot {
+  margin: 0;
+}
+
+.product-shot a {
+  display: block;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #111412;
   border-radius: var(--radius-md);
 }
 
-.screenshot-stage p {
-  max-width: 680px;
-  margin-bottom: 0;
+.product-shot a:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 4px;
+}
+
+.product-shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.product-shot figcaption {
+  display: grid;
+  margin-top: 16px;
+  grid-template-columns: minmax(220px, 0.55fr) 1fr;
+  gap: 24px;
+}
+
+.product-shot figcaption strong {
+  font-size: 17px;
+}
+
+.product-shot figcaption span {
   color: var(--muted);
-}
-
-.slot-list {
-  display: flex;
-  margin: 24px 0 0;
-  padding: 0;
-  flex-wrap: wrap;
-  gap: 8px;
-  list-style: none;
-}
-
-.slot-list li {
-  padding: 6px 10px;
-  border: 1px solid var(--line);
-  background: var(--surface);
-  border-radius: 999px;
-  font-size: 13px;
 }
 
 .feature-columns {
@@ -853,9 +866,17 @@ h2 {
     display: none;
   }
 
-  .screenshot-stage,
   .trust-panel {
     padding: 28px;
+  }
+
+  .screenshot-gallery {
+    gap: 36px;
+  }
+
+  .product-shot figcaption {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 
   .feature-list li {

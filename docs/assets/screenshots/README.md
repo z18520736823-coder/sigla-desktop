@@ -1,14 +1,15 @@
 # Public screenshot handoff
 
-Replace the staging panel in both product pages with these five final PNG files before changing the repository to Public:
+The four final product screenshots below use the purpose-written `Sigla-Bilingual-Showcase.md` fixture. They contain no private path, account, API key, project, or notification content.
 
 | File | Required view | Suggested alt text |
 | --- | --- | --- |
-| `01-hero-light.png` | Light three-pane workspace with AI summary | Sigla light workspace showing Markdown, evidence-linked AI summary, and review panel |
-| `02-dark-bilingual-reading.png` | Dark theme with Chinese/English text, code, table, and Mermaid | Sigla dark theme rendering bilingual Markdown, source code, a table, and Mermaid diagram |
+| `01-hero-light.png` | Clean light three-pane reading workspace | Sigla light workspace rendering bilingual Markdown in a strictly read-only three-pane interface |
+| `02-dark-bilingual-reading.png` | Dark theme with Chinese/English text and code | Sigla dark theme rendering English and Chinese Markdown with a TypeScript code block |
 | `03-ai-evidence-anchors.png` | AI conclusion and key takeaways linked to source | Sigla AI reading map with a conclusion, key takeaways, and source evidence anchors |
-| `04-annotation-feedback-handoff.png` | Box annotation and Agent-ready feedback | Sigla box annotations converted into precise Agent editing tasks and acceptance criteria |
-| `05-codex-default-app-flow.png` | Codex return flow and default Markdown opener | Markdown opened from Codex into Sigla and feedback returned to the original Agent task |
+| `04-annotation-feedback-handoff.png` | Accepted annotation and local feedback handoff | Sigla accepted annotation feedback with a local feedback file ready to copy or return to an Agent |
+
+The Codex return flow and default Markdown opener will be shown later as a short video or GIF, where the transition can be understood clearly.
 
 ## Capture rules
 
