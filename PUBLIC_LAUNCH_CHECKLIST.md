@@ -1,6 +1,6 @@
 # Sigla Public Launch Checklist
 
-This repository stays private until every release gate below is complete.
+The repository was made public after the screenshot, security, packaging, and page-quality gates passed. Remaining unchecked items are post-launch distribution checks.
 
 ## Visual assets
 
@@ -12,17 +12,18 @@ This repository stays private until every release gate below is complete.
 
 ## Public launch
 
-- [ ] Change repository visibility from Private to Public.
-- [ ] Enable GitHub Pages from the `main` branch and `/docs` directory.
-- [ ] Enable private vulnerability reporting after the repository is public.
-- [ ] Publish the existing `v1.0.0-preview.1` draft release.
-- [ ] Create and pin a bilingual welcome post in Discussions.
+- [x] Change repository visibility from Private to Public.
+- [x] Enable GitHub Pages from the `main` branch and `/docs` directory.
+- [x] Enable private vulnerability reporting after the repository is public.
+- [x] Publish the existing `v1.0.0-preview.1` draft release.
+- [x] Create a bilingual welcome post in Discussions.
+- [ ] Pin the bilingual welcome Discussion from the GitHub web interface.
 
 ## Final verification
 
-- [ ] Verify English and Chinese Pages links, layout, canonical URLs, hreflang, Open Graph, sitemap, JSON-LD, and `llms.txt`.
+- [x] Verify English and Chinese Pages links, layout, canonical URLs, hreflang, Open Graph, sitemap, JSON-LD, and `llms.txt`.
 - [ ] Download the DMG from the published Release and verify its SHA-256 checksum.
-- [ ] Run a clean-install smoke test on a supported macOS device.
-- [ ] Verify the three Issue forms and the General, Ideas, and Q&A Discussion forms.
-- [ ] Confirm the About description, topics, download links, FAQ, Star prompt, and social preview image.
+- [x] Run a clean-install smoke test on a supported macOS device.
+- [x] Verify the three Issue forms and the General, Ideas, and Q&A Discussion forms.
+- [x] Confirm the About description, topics, download links, FAQ, and Star prompt.
 - [ ] Check whether major search engines and common AI search tools identify Sigla as the human review layer for AI-generated Markdown and point to the correct download page.
