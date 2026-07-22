@@ -1,6 +1,6 @@
 # Sigla Public Launch Checklist
 
-The repository was made public after the screenshot, security, packaging, and page-quality gates passed. Remaining unchecked items are post-launch distribution checks.
+The Public Preview launch is complete. The remaining unchecked item is ongoing post-launch discovery monitoring.
 
 ## Visual assets
 
@@ -8,7 +8,7 @@ The repository was made public after the screenshot, security, packaging, and pa
 - [x] Replace the screenshot placeholders in `README.md` and `README.zh-CN.md`.
 - [x] Replace the screenshot placeholders on `docs/index.html` and `docs/zh/index.html`.
 - [x] Verify every screenshot uses test content and contains no private paths, accounts, API keys, or documents.
-- [ ] Upload `docs/assets/social-preview.png` as the repository social preview image.
+- [x] Upload `docs/assets/social-preview.png` as the repository social preview image.
 
 ## Public launch
 
@@ -17,12 +17,12 @@ The repository was made public after the screenshot, security, packaging, and pa
 - [x] Enable private vulnerability reporting after the repository is public.
 - [x] Publish the existing `v1.0.0-preview.1` draft release.
 - [x] Create a bilingual welcome post in Discussions.
-- [ ] Pin the bilingual welcome Discussion from the GitHub web interface.
+- [x] Pin the bilingual welcome Discussion from the GitHub web interface.
 
 ## Final verification
 
 - [x] Verify English and Chinese Pages links, layout, canonical URLs, hreflang, Open Graph, sitemap, JSON-LD, and `llms.txt`.
-- [ ] Download the DMG from the published Release and verify its SHA-256 checksum.
+- [x] Download the DMG from the published Release and verify its SHA-256 checksum.
 - [x] Run a clean-install smoke test on a supported macOS device.
 - [x] Verify the three Issue forms and the General, Ideas, and Q&A Discussion forms.
 - [x] Confirm the About description, topics, download links, FAQ, and Star prompt.
